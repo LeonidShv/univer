@@ -1,0 +1,301 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f7f7f7;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+/*******NAV******/
+
+.nav_width {
+	width: 55%;
+}
+.navigation_out {
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+	background: rgba(63,64,73,0.7);
+	padding-top: 5px;
+	padding-bottom: : 5px;
+	top: 0;
+	/*
+background: linear-gradient(to bottom, rgba(5,5,5,0.15) 0%, rgba(137,138,136,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#898a88', GradientType=0 );
+*/
+}
+
+.navigation_in  {
+	list-style-type: none;
+	letter-spacing: 0.5px;
+	padding: 0;
+	display: flex;
+	direction: row;
+	justify-content: center;
+}
+.navigation_in li {
+	padding: 11px 15px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+.navigation_li_first {
+	padding-left: 0;
+	margin-left: 0;
+}
+.navigation_icon {
+	color: #fc5f45;
+
+}
+li:hover {
+	cursor: pointer;
+	background: rgba(252, 237, 185, 0.1);
+	border-radius: 20px;
+}
+
+.dropdown_content {
+	
+	display: none;
+	position: absolute;
+	/* top-left | top-right | bottom-right | bottom-left */
+border-radius: 1px 1px 18px 18px;
+	padding-right: 80px;
+	background: rgba(61,61,61,0.7);
+}
+.dropdown_content li {
+	display: block;
+
+	color: white;
+	width: 180%;
+	font-size: 0.7rem;
+}
+.dropdown:hover .dropdown_content {
+	display: block;
+}
+.dropdown_content li:hover {
+	cursor: pointer;
+}
+
+/****SECTION TEXT****/
+
+.section_text {
+	width: 63%;
+	margin: 100px auto;
+	
+	background: white;
+	border-radius: 25px;
+	font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 50px;
+    padding-top: 40px;
+}
+.section_text h2 {
+	font-size: 23px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.section_text p {
+	padding-bottom: 8px;
+	text-indent: 35px;
+}
+section h2,section>p {
+	
+	color: #313131;
+	
+}
+br {
+	line-height: 1em;
+}
+/************FOTTER*************/
+
+.footer {
+	padding-bottom: 100px;
+
+}
+.footer_blok {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #3f4049;
+	border-radius: 10px;
+}
+.footer img {
+	width: 110px;
+	margin-left: 20px;
+	float: left;
+
+}
+
+.footer_facebook {
+	padding-top: 30px;
+	margin-right: 30px;
+	float: right;
+	text-align: center;
+	font-size: 17px;
+	color: white;
+}
+
+.footer_facebook i {
+	padding: 2px;
+}
+
+.footer_text {
+	display: inline-block;
+	vertical-align:middle; 
+	padding-top: 40px;
+	padding-bottom: 45px;
+	color: white;
+	margin-left: 20px;
+	width: 50%;
+}
+
+/*color icons*/
+
+.one {
+	color: #fc5f45;
+}
+
+.two {
+	color: #38c695;
+}
+
+.three {
+	color: #b27cf5;
+}
+
+.four {
+	color: #feb960;
+}
+
+/*******GLOBAL******/
+.center {
+	text-align: center;
+	margin-left: -30px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/********MAP********/
+
+
+.contacts__map {
+	display: block;
+	margin: 100px auto 20px;
+}
+
+.info__wrap {
+	display: flex;
+	justify-content: space-around;
+}
+
+.info__wrap p {
+	text-indent: 0;
+	text-align: left;
+}
+
+.info__adress {
+	width: 180px;
+}
+
+.info__grey {
+	font-size: 16px;
+	color: grey;
+}
+
+.info__adress_m-top {
+	margin-top: 13px; 
+}
+
+/*SECOND SECTION*/
+.cards h2 {
+	font-size: 30px;
+}
+section h2,section>p {
+	text-align: center;
+	color: #313131;
+	padding-bottom: 30px;
+}
+section>p {
+	padding-bottom: 50px;
+}
+.cards {
+	
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+.cards_in {
+	display: flex;
+	direction: row;
+	justify-content: center;
+	width: 75%;
+	margin: 0 auto;
+	
+	
+}
+
+.cards_in h4 {
+	padding-bottom: 20px;
+	font-weight: 600;
+	color: #313131;
+}
+
+.cards_in>a {
+	width: 20%;
+	text-align: center;
+	background: white;
+	margin-right: 1.5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-decoration: none;
+	color: #616161;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.one {
+	color: #fc5f45;
+}
+
+.two {
+	color: #38c695;
+}
+
+.three {
+	color: #b27cf5;
+}
+
+.four {
+	color: #feb960;
+}
+
+.cards .one, .cards .two, .cards .three, .cards .four {
+	font-size: 40px;
+	padding-bottom: 25px;
+}
+
+.one_b {
+	border-bottom: 2px solid #fc5f45;
+}
+
+.two_b {
+	border-bottom: 2px solid #38c695;
+}
+
+.three_b {
+	border-bottom: 2px solid #b27cf5;
+}
+
+.four_b {
+	border-bottom: 2px solid #feb960;
+}
